@@ -167,7 +167,7 @@ let mystream, myscreenshare;
 document.querySelector('.roomcode').innerHTML = `${roomid}`
 
 function CopyClassText() {
-
+    
     var textToCopy = window.location.href;
     window.navigator.clipboard.writeText(textToCopy);
 
